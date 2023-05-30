@@ -1,0 +1,136 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 1953px;
+}
+
+.u-section-1 .u-list-1 {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-gap: 10px 10px;
+  grid-template-columns: 100%;
+  min-height: 339px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 23px 10px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin: 7px 0 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 118px;
+  height: 118px;
+  margin: -23px 40px 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+  margin: -75px auto 0 0;
+}
+
+.u-section-1 .u-image-2 {
+  width: 117px;
+  height: 117px;
+  margin: 11px 40px 0 auto;
+}
+
+.u-section-1 .u-text-3 {
+  margin: -100px auto 0 0;
+}
+
+.u-section-1 .u-list-2 {
+  margin-top: -10px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-repeater-2 {
+  grid-gap: 10px 10px;
+  grid-template-columns: 100%;
+  min-height: 356px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 23px 10px;
+}
+
+.u-section-1 .u-text-4 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin: 0 auto 0 0;
+}
+
+.u-section-1 .u-text-5 {
+  margin: 18px auto 0 0;
+}
+
+.u-section-1 .u-list-3 {
+  margin-top: 17px;
+  margin-bottom: 60px;
+}
+
+.u-section-1 .u-repeater-3 {
+  grid-gap: 10px 10px;
+  grid-template-columns: 100%;
+  min-height: 709px;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 22px 10px;
+}
+
+.u-section-1 .u-text-6 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin: 1px auto 0 0;
+}
+
+.u-section-1 .u-text-7 {
+  margin: 17px auto 0 0;
+}
+
+.u-section-1 .u-text-8 {
+  margin: 20px auto 0 0;
+}
+
+.u-section-1 .u-text-9 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin: 69px auto 0 0;
+}
+
+.u-section-1 .u-text-10 {
+  margin: 17px auto 0 0;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-list-1 {
+    margin-top: 256px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-list-1 {
+    margin-top: 181px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+  }
+
+  .u-section-1 .u-text-4 {
+    font-size: 1.5rem;
+  }
+
+  .u-section-1 .u-text-6 {
+    font-size: 1.5rem;
+  }
+
+  .u-section-1 .u-text-9 {
+    font-size: 1.5rem;
+  }
+}
