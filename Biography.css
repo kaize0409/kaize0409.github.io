@@ -1,5 +1,6 @@
 .u-section-1 .u-sheet-1 {
   min-height: 0;
+  padding-bottom: 40px;
 }
 
 .u-section-1 .u-list-1 {
@@ -70,7 +71,7 @@
 
 .u-section-1 .u-list-3 {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .u-section-1 .u-repeater-3 {

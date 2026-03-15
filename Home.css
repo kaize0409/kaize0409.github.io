@@ -182,11 +182,12 @@
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 0;
+  padding-bottom: 40px;
 }
 
 .u-section-2 .u-list-1 {
   width: 1092px;
-  margin: 20px auto 54px 12px;
+  margin: 20px auto 0 12px;
 }
 
 .u-section-2 .u-repeater-1 {
