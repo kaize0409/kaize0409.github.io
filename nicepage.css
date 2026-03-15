@@ -41802,3 +41802,10 @@ a.u-link.u-text-hover-grey-90:hover {
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
+/* Northwestern font overrides */
+body, p, ul, ol, li, span, a, td, th, div {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
