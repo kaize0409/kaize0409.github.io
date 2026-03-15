@@ -41809,3 +41809,23 @@ body, p, ul, ol, li, span, a, td, th, div {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
 }
+
+/* Hide Misc. nav item until hover */
+.u-nav-1 .u-nav-item:last-child > a {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.u-nav-1 .u-nav-item:last-child:hover > a {
+  opacity: 1;
+}
+
+
+/* Sticky footer */
+.u-body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.u-footer {
+  margin-top: auto;
+}
