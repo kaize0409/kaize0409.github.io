@@ -18,13 +18,26 @@
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 1.875rem;
+  font-size: 1.375rem;
   font-weight: 700;
-  margin: 10px;
+  margin: 10px 0;
+  text-align: left;
 }
 
 .u-section-1 .u-text-2 {
   margin: 0 auto 0 0;
+  text-align: left;
+}
+
+.u-section-1 .u-container-layout-1 {
+  text-align: left;
+}
+
+.u-section-1 .u-text-default,
+.u-section-1 p,
+.u-section-1 ul,
+.u-section-1 li {
+  text-align: left;
 }
 
 .u-section-1 .u-container-layout-2 {
