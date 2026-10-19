@@ -68,7 +68,61 @@
           <div class="u-repeater u-repeater-1">
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-1">
-	        <h3 class="u-text u-text-custom-color-1 u-text-default u-text-1" style="font-size:1.875rem;">Reliable and Efficient Autonomous Learning (REAL) Lab @ Northwestern</h3>
+	        <h3 class="u-text u-text-custom-color-1 u-text-default u-text-1 lab-typing" style="font-size:1.875rem;" aria-label="Reliable and Efficient Agentic Learning (REAL) Lab @ Northwestern"><span class="lab-typing-ghost" aria-hidden="true">Reliable and Efficient Autonomous Learning (REAL) Lab @ Northwestern</span><span class="lab-typing-text" aria-hidden="true">Reliable and Efficient Agentic Learning (REAL) Lab @ Northwestern</span></h3>
+		<style>
+		  h3.lab-typing.u-text { display: grid; box-sizing: border-box; padding: 16px 22px !important; margin-bottom: 20px !important; border: 1.5px solid #e4e0ee; border-left: 5px solid #4e2a84; border-radius: 6px; background-color: #faf8fd; box-shadow: 0 2px 8px rgba(122,94,160,0.12); }
+		  .lab-typing-ghost, .lab-typing-text { grid-area: 1 / 1; }
+		  .lab-typing-ghost { visibility: hidden; }
+		  .lab-word { transition: opacity 0.3s ease; }
+		  .lab-caret { font-weight: 300; margin: 0 1px; animation: lab-caret 0.8s steps(1) infinite; }
+		  @keyframes lab-caret { 50% { opacity: 0; } }
+		</style>
+		<script>
+		  (function () {
+		    var el = document.querySelector('.lab-typing-text');
+		    if (!el || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+		    var prefix = 'Reliable and Efficient ', rest = ' Learning (REAL) Lab @ Northwestern',
+		        words = ['Autonomous', 'Agentic'];
+		    var head = document.createTextNode(''), word = document.createElement('span'),
+		        caret = document.createElement('span'), tail = document.createTextNode('');
+		    word.className = 'lab-word';
+		    caret.className = 'lab-caret';
+		    caret.textContent = '|';
+		    el.textContent = '';
+		    el.append(head, word, caret, tail);
+		    var steps = [];
+		    function show(h, t, ms) { steps.push([h, t, ms]); }
+		    function type(base, str, t, ms) { for (var i = 1; i <= str.length; i++) show(base + str.slice(0, i), t, ms); }
+		    function erase(base, str, t, ms) { for (var i = str.length - 1; i >= 0; i--) show(base + str.slice(0, i), t, ms); }
+		    // Intro: type "Autonomous", correct it to "Agentic", then type the rest
+		    type('', prefix + words[0], '', 70);
+		    show(prefix + words[0], '', 700);
+		    erase(prefix, words[0], '', 40);
+		    show(prefix, '', 300);
+		    type(prefix, words[1], '', 90);
+		    type(prefix + words[1], rest, '', 70);
+		    var n = 0;
+		    (function tick() {
+		      if (n >= steps.length) { caret.remove(); word.textContent = words[1]; tail.data = rest; setTimeout(blink, 2500); return; }
+		      var s = steps[n++];
+		      head.data = s[0].slice(0, prefix.length);
+		      word.textContent = s[0].slice(prefix.length);
+		      tail.data = s[1];
+		      setTimeout(tick, s[2]);
+		    })();
+		    // Then alternate the word in place with a quick blink
+		    var w = 1;
+		    function blink() {
+		      word.style.opacity = 0;
+		      setTimeout(function () {
+		        w = 1 - w;
+		        word.textContent = words[w];
+		        word.style.opacity = 1;
+		        setTimeout(blink, 2500);
+		      }, 300);
+		    }
+		  })();
+		</script>
 		<p class="u-text u-text-2"> I am fortunate to work with the following talented and motivated students: </p>
                 <h3 class="u-text u-text-custom-color-1 u-text-default u-text-1">Ph.D. Students</h3>
                 <ul class="u-spacing-10 u-text u-text-default u-text-10">
